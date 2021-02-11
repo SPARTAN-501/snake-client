@@ -42,7 +42,7 @@ const handleUserInput = ("data", (data) => {
       connection.write("Say: General Kenobi!");
     }
     else if (key === "3") {
-      connetion.write("Say: SSSSSSSS");
+      connection.write("Say: SSSSSSSS");
     }
   })
 });
