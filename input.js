@@ -35,6 +35,15 @@ const handleUserInput = ("data", (data) => {
     else if (key === "d") {
       connection.write("Move: right");
     }
+    else if (key === "1") {
+      connection.write("Say: Hello there");
+    }
+    else if (key === "2") {
+      connection.write("Say: General Kenobi!");
+    }
+    else if (key === "3") {
+      connetion.write("Say: SSSSSSSS");
+    }
   })
 });
 
